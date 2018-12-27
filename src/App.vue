@@ -1,15 +1,21 @@
 <template>
   <div id="app">
-  
+    <router-view></router-view>
+      <router-link to="/pagea">Go to Foo</router-link>
+      <router-link to="/pageb">Go</router-link>
   </div>
 </template>
 
 <script>
+import A from './pages/a';
+import B from './pages/b'
 
 
 export default {
   name: 'app',
   components: {
+    A,
+    B
   }
 }
 </script>
