@@ -1,20 +1,20 @@
 <template>
   <div id="app">
-    <router-view></router-view>
-      <router-link to="/pagea">Go to Foo</router-link>
-      <router-link to="/pageb">Go</router-link>
+    <router-view>
+      <Vuexx />
+    </router-view>
   </div>
 </template>
 
 <script>
-import A from './pages/a';
-import B from './pages/b'
+import Vuexx from './components/vuex';
+import B from './components/b'
 
 
 export default {
   name: 'app',
   components: {
-    A,
+    Vuexx,
     B
   }
 }

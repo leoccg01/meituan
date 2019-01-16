@@ -7,7 +7,7 @@ const state = {
     count: 1
 }
 const mutations = {
-    inscrement(state) {
+    increment(state) {
         state.count++
     },
     decrement(state) {
@@ -15,10 +15,10 @@ const mutations = {
     }
 }
 const actions = {
-    inscrement: ({commit}) => {
+    increment: ({commit}) => {
         commit('increment')
     },
-    decrement: (commit) => {
+    decrement: ({commit}) => {
         commit('decrement')
     }
 }

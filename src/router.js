@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import pageA from './pages/a.vue'
-import pageB from './pages/b.vue'
+import pageA from './components/vuex.vue'
+import pageB from './components/b.vue'
 
 Vue.use(VueRouter)
 
