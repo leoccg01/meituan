@@ -1,20 +1,23 @@
 <template>
   <div id="app">
-    <router-view>
+    <!-- <router-view>
       <Vuexx />
-    </router-view>
+    </router-view> -->
+    <A />
+    <B />
   </div>
 </template>
 
 <script>
-import Vuexx from './components/vuex';
+// import Vuexx from './components/vuex'
+import A from './components/a'
 import B from './components/b'
-
 
 export default {
   name: 'app',
   components: {
-    Vuexx,
+    // Vuexx,
+    A,
     B
   }
 }
